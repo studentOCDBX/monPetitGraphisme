@@ -3,11 +3,37 @@
  */
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Roboto', sans-serif ;
+  /*  width: 80vw;
+  margin: 0 auto; */
+  font-family: "Roboto", sans-serif;
+}
+
+/* HEADER */
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav img {
+  height: 80px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+nav li {
+  margin: 0 10px 0 20px;
+}
+
+li a {
+  text-decoration: none;
 }
